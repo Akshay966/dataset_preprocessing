@@ -1,0 +1,12 @@
+import pandas as pd
+
+# Load the dataset
+data_path = '/content/drive/MyDrive/Test/result_bkup1 (2).csv'
+data = pd.read_csv(data_path)
+
+# Display the first few rows and the summary of the dataset
+data_head = data.head()
+data_info = data.info()
+data_description = data.describe()
+
+data_head, data_info, data_description
