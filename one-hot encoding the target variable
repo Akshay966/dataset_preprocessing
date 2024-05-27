@@ -1,0 +1,3 @@
+# Convert target variable to one-hot encoding
+y_train_encoded = to_categorical(y_train)
+y_test_encoded = to_categorical(y_test)
